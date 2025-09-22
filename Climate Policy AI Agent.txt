@@ -1,0 +1,18 @@
+============================================================
+AI STRATEGY ANALYSIS
+============================================================
+Most frequent policy: Agroforestry (72.0% of time)
+Times AI chose 'Do Nothing': 0/25
+❌ AI did not invest in the Dam project
+
+AI response in 10 drought years:
+  Year 2026: Irrigation
+  Year 2027: Irrigation
+  Year 2030: Early Warning
+  Year 2033: Agroforestry
+  Year 2034: Agroforestry
+  Year 2036: Agroforestry
+  Year 2040: Agroforestry
+  Year 2041: Agroforestry
+  Year 2043: Agroforestry
+  Year 2047: Agroforestry
