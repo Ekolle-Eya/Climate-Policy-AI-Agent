@@ -31,16 +31,16 @@ By training the AI in this simulation, it learns which policies are most effecti
 
 ## 🛠️ Tools, Data & Project Structure
 
-**Tools**
+####**Tools**
 1. Google Earth Engine
 2. Google Colab
 3. Python
    
-**Data**
+####**Data**
 The data for this project was sourced directly from Google Earth Engine. The data contains information about **rainfall, ndvi, poverty, and year**. The data was collected from **2019-2024**
 Note: Population data was sourced seperately from national yearly reports of Kitui County, Kenya, since Google Earth Eangine didn't have the population data.
 
-**Project Structure**
+####**Project Structure**
 *   **Data Loading and Preprocessing:** Code to fetch and prepare historical climate and socioeconomic data.
 *   **Environment Definition:** The `RealWorldClimateEnv` class, which simulates the climate, economy, and policy interactions.
 *   **AI Model Training:** Code to train the DQN (or other RL algorithms like PPO/A2C) model using the environment.
@@ -72,6 +72,16 @@ Based on the recent simulation run using the trained AI model, the results show:
 *   **Drought Response:** The AI Idenfired 10 years of experiencing significant feature drought and took actions to invest in Irrifation, Early Warning and Agroforestry, suggesting a learned response to adverse climate conditions using its available policies.
 
 While the AI achieved notable success in poverty reduction and budget management in this simulation, further experimentation with reward function design and different reinforcement learning algorithms (like PPO or A2C, which are included in this project for comparison) could potentially lead to an even more balanced and effective policy portfolio that leverages the full range of available actions.
+
+## ▶️ Getting Started
+
+1.  **Open the notebook:** Click on the `Climate Policy AI Agent_Kitui County Kenya.ipynb` file in this repository.
+2.  **Run in Google Colab:** Click the "Open in Colab" button at the top (if available) or upload the notebook to Google Colab.
+3.  **Run all cells:** Execute the notebook cells sequentially. The notebook is designed to be run from top to bottom.
+4.  **Interact and Experiment:** Feel free to modify the environment parameters, AI hyperparameters, or try different algorithms!
+
+## Reference
+1. Ekolle Eya
 
 
 
