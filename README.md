@@ -34,3 +34,23 @@ By training the AI in this simulation, it learns which policies are most effecti
 After training, I run a simulation of the AI's learned policy for 25 years to see how it performs. The visualizations below provide a clear picture of the AI's impact:
 
 <img width="1589" height="1181" alt="AI policy 3" src="https://github.com/user-attachments/assets/264cc951-63ec-4db0-aeb0-7eb42f69a6e9" />
+
+**Key Plot Descriptions:**
+
+*   **Key Outcomes: Poverty vs. Budget:** This plot uses two y-axes to show how the poverty rate (in red) and the available budget (in blue) change year by year under the AI's policy. It helps assess the AI's success in its primary goals.
+*   **AI Policy Preferences:** A bar chart showing the total count of times the AI chose each of the 9 available policy actions throughout the 25-year simulation. This gives insight into the AI's learned strategy and which policies it prioritized.
+*   **Long-Term Resilience Investments:** This plot tracks the levels of key long-term indicators: Health Infrastructure, Education Level, and Agroforestry. An increase in these lines suggests the AI invested in building the region's long-term capacity to handle future challenges.
+*   **Climate Context & AI Decisions:** This plot shows the annual rainfall anomaly (bars, red for drought, blue for good rain) overlaid with markers indicating which specific policy action the AI took in each given year. This helps analyze how the AI's decisions are influenced by the climate conditions.
+
+**Analysis of a Sample Simulation Run:**
+
+Based on the recent simulation run using the trained AI model, the results show:
+
+*   **Significant Poverty Reduction:** The simulation demonstrated a **30.2% reduction in the poverty rate**, dropping from an initial 50% to a final rate of **18.8%**. This indicates the AI's policies were effective in improving the economic well-being of the population within the simulated environment.
+*   **Effective Budget Management:** The AI successfully managed the region's finances, with the budget generally increasing over the simulation and averaging **$120M** annually. The AI avoided critical budget shortages.
+*   **Learned Policy Strategy:** The most frequently chosen policy action by the AI was **Agroforestry**, which was selected **72%** of the time. This highlights the AI's reliance on this particular strategy to achieve its objectives.
+*   **Limited Action Diversity:** While the AI primarily favored **Agroforestry**, the simulation plots also show that the AI did utilize other actions like **Irrigation** and **Early Warning** at times, demonstrating some level of policy diversification beyond the most frequent choice. However, the dominance of one action suggests room for further exploration or reward tuning.
+*   **Focus on Specific Resilience:** The AI showed a strong preference for building **Agroforestry**, reaching the maximum level. However, investment in **Health Infrastructure** and **Education** remained static at their initial levels, and the AI **did not invest in the Dam project**. This indicates the AI's learned strategy prioritized certain types of resilience building over others in this simulation run.
+*   **Drought Response:** The AI Idenfired 10 years of experiencing significant feature drought and took actions to invest in Irrifation, Early Warning and Agroforestry, suggesting a learned response to adverse climate conditions using its available policies.
+
+While the AI achieved notable success in poverty reduction and budget management in this simulation, further experimentation with reward function design and different reinforcement learning algorithms (like PPO or A2C, which are included in this project for comparison) could potentially lead to an even more balanced and effective policy portfolio that leverages the full range of available actions.
