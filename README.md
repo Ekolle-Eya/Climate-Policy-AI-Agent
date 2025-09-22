@@ -31,16 +31,16 @@ By training the AI in this simulation, it learns which policies are most effecti
 
 ## 🛠️ Tools, Data & Project Structure
 
-####**Tools**
+#### **Tools**
 1. Google Earth Engine
 2. Google Colab
 3. Python
    
-####**Data**
+#### **Data**
 The data for this project was sourced directly from Google Earth Engine. The data contains information about **rainfall, ndvi, poverty, and year**. The data was collected from **2019-2024**
 Note: Population data was sourced seperately from national yearly reports of Kitui County, Kenya, since Google Earth Eangine didn't have the population data.
 
-####**Project Structure**
+#### **Project Structure**
 *   **Data Loading and Preprocessing:** Code to fetch and prepare historical climate and socioeconomic data.
 *   **Environment Definition:** The `RealWorldClimateEnv` class, which simulates the climate, economy, and policy interactions.
 *   **AI Model Training:** Code to train the DQN (or other RL algorithms like PPO/A2C) model using the environment.
